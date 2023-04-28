@@ -1,0 +1,74 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} quando se coloca o asterisco indica que esta selecionando todos os elementos  */
+
+body {
+    font-family: sans-serif;
+    background-color: thistle;
+    font-size: 20px;
+    
+}
+
+.seletor  {
+    background-color: aliceblue;
+    border-radius: 7px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+.rastreio  {
+    background: aliceblue;
+}
+
+.pai:hover {
+    transition: all 400ms ease-in-out;
+background-color: #c9a9be;
+}
+.filha {
+    background-color: aliceblue;
+    color: blueviolet;
+    width: 100px;
+    height: 45px;
+    display: block;
+    padding: 0.2%;
+    border-radius: 8%;
+    text-align: center;
+    text-decoration: none;
+}
+ a:active{
+    background-color: deeppink;
+ }
+
+ .dev {
+    width: 20px;
+    height: 20px;
+ }
+/*input:not(:checked){
+    width: 20px;
+    height: 20px;
+} o elemento não assinalado mudaria de tamanho*/
+img {
+    padding: 0.5%;    
+    display: block;
+    border-radius: 8%;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #000000;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+::selection{
+    background: rgb(212, 194, 88);
+    color: white;
+}
+p::first-letter{
+    font-size: 50px;
+}

@@ -1,0 +1,12 @@
+div > p{
+    background-color: blueviolet;
+    text-align: left;
+}
+/*
+div + p {
+    background-color: aqua;
+}
+/*
+div ~ p{
+    background-color: brown;
+} */
